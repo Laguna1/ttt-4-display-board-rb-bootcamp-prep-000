@@ -2,10 +2,10 @@
 # out the current state.
 board = [" "," "," "," "," "," "," "," "," "]
 def game_board(board)
-  puts " #{board.board[0]} | #{board.board[1]} | #{board.board[2]}"
+  puts " #{board[0]} | #{board[1]} | #{board[2]}"
   puts "-------------"
-  puts " #{board.board[3]} | #{board.board[4]} | #{board.board[5]}"
+  puts " #{board[3]} | #{board[4]} | #{board[5]}"
   puts "-------------"
-  puts " #{board.board[6]} | #{board.board[7]} | #{board.board[8]}"
+  puts " #{board[6]} | #{board[7]} | #{board[8]}"
   puts "-------------"
 end
